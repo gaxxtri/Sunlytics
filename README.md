@@ -1,2 +1,74 @@
 # Sunlytics
 Solar energy prediction and village electrification insights (QGIS + Regression + Streamlit Dashboard)
+unlytics 2.0 is a data-driven project that combines **GIS mapping, regression models, and an interactive Streamlit dashboard** to analyze solar energy potential, electrification status of villages, and urban energy usage.  
+
+---
+
+## Features
+
+- **Village Dashboard**: Explore electrification levels, solar potential, and predicted savings for rural areas.  
+- **Urban Dashboard**: Visualize energy consumption, building types, and CO₂ savings in urban regions.  
+- **Regression Model**: Predict potential solar energy savings based on geographic and demographic data.  
+- **GIS Integration**: Interactive QGIS maps for urban and village analysis.  
+- **Data-Driven Insights**: Helps plan solar energy deployment and track community impact.  
+
+---
+
+## Project Structure
+
+sunlytics-2.0/
+│── app.py # Streamlit dashboard
+│── SUNLYTICS.2.0.qgz # QGIS project file
+│── sunshine.jpeg # Project images / UI screenshots
+│── requirements.txt # Python dependencies
+│── README.md # Project overview
+│── LICENSE
+│── .gitignore
+│
+├── data/
+│ ├── URBAN_DATA.csv
+│ └── VILLAGE_DATA.csv
+
+
+## Installation & Setup
+
+1. **Clone the repository**:
+   bash
+git clone https://github.com/YOUR-USERNAME/sunlytics-2.0.git
+cd sunlytics-2.0
+Create a virtual environment:
+
+bash
+Copy code
+python -m venv venv
+# Activate
+# Windows: .\venv\Scripts\activate
+# Mac/Linux: source venv/bin/activate
+Install dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the Dashboard
+bash
+Copy code
+streamlit run app.py
+The dashboard will open in your browser at http://localhost:8501.
+
+Navigate through Urban and Village tabs to explore data and predictions.
+
+Data
+URBAN_DATA.csv – Urban energy and building dataset.
+
+VILLAGE_DATA.csv – Village electrification and solar potential dataset.
+
+SUNLYTICS.2.0.qgz – QGIS project file for visualization.
+
+⚠️ Large datasets can be hosted externally (Google Drive / Kaggle) if required.
+
+Deployment
+The app can be deployed publicly using Streamlit Community Cloud.
+
+Once deployed, the app link can be shared with anyone to access on any device.
+
+License
