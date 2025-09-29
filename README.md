@@ -34,7 +34,7 @@ sunlytics-2.0/
 
 1. **Clone the repository**:
    bash
-git clone https://github.com/YOUR-USERNAME/sunlytics-2.0.git
+git clone https://github.com/gaxxtri/sunlytics-2.0.git
 cd sunlytics-2.0
 Create a virtual environment:
 
